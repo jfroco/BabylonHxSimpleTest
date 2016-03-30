@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="BabylonHx Example" package="com.nobody.babylonhx.example" version="1.0.0" company="Nobody" />
+	<app main="BasicScene" file="BabylonHx_Lime" path="Export" />
+	
+	<window require-shaders="true" hardware="true" depth-buffer="true" stencil-buffer="true" antialiasing="0" />
+	
+	<source path="src" />
+	
+	<haxelib name="lime" />
+	<haxelib name="actuate" />
+	<haxelib name="poly2trihx" />
+		
+	<assets path="assets" exclude="*.svg" />
+	<icon path="assets/lime.svg" />
+	
+</project>
